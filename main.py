@@ -1,19 +1,16 @@
-from flask import Flask, render_template
+# Importa la clase Tablero desde el mismo archivo
+from tablero import Tablero
 
-app = Flask(__name__)
+def main():
+    # Crea un objeto Tablero con 5 filas, 5 columnas y 5 minas
+    mi_tablero = Tablero(5, 5, valor='*')
+    
+    # Coloca las minas en el tablero
+    mi_tablero.colocar_minas(5)
+    
+    # Muestra el tablero
+    print("Tablero con minas:")
+    mi_tablero.mostrar_tablero()
 
-@app.route('/')
-def index():
-    return render_template('menu.html')
-
-@app.route('/juego')
-def juego():
-    return render_template('juego.html')
-
-@app.route('/opciones')
-def opciones():
-    return render_template('opciones.html')
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    main()
