@@ -9,12 +9,6 @@ class tablero:
              tablero[i].append(valor)
              return tablero
 
-    def mostrarTablero(tablero):
-        for fila in tablero:
-            for elem in fila:
-             print(elem, end=" ")
-        print()
-        
     def colocarMinas(tablero, minas,fila,columna):
         minasOcultas = []
         numero = 0
@@ -28,3 +22,9 @@ class tablero:
         return tablero, minasOcultas
 
 
+    def mostrarTablero(tablero):
+        for fila in tablero:
+            for elem in fila:
+             print(elem, end=" ")
+        print()
+        
