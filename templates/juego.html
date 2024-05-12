@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscaminas</h1>
+        <div id="tablero" class="tablero">
+            <!-- Aquí se generará dinámicamente el tablero -->
+        </div>
+        <button id="reiniciarBtn">Reiniciar Juego</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+<script>
+    // Lógica para generar el tablero aquí
+    const FILAS = 5; // Define el número de filas del tablero
+    const COLUMNAS = 5; // Define el número de columnas del tablero
+    const tablero = [
+        [' ', ' ', ' ', ' ', ' '], // Ejemplo de tablero, puedes inicializarlo con tu lógica de generación de tablero
+        [' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' ']
+    ];
+
+    const tableroEl = document.getElementById('tablero');
+
+    // Función para generar el tablero
+    function generarTablero() {
+        for (let i = 0; i < FILAS; i++) {
+            const filaEl = document.createElement('div');
+            filaEl.classList.add('fila');
+            for (let j = 0; j < COLUMNAS; j++) {
+                const casillaEl = document.createElement('div');
+                casillaEl.classList.add('casilla');
+                casillaEl.dataset.fila = i;
+                casillaEl.dataset.columna = j;
+                casillaEl.textContent = tablero[i][j];
+                casillaEl.addEventListener('click', abrirCasilla);
+                filaEl.appendChild(casillaEl);
+            }
+            tableroEl.appendChild(filaEl);
+        }
+    }
+
+    // Función para abrir una casilla
+    function abrirCasilla(event) {
+        const fila = event.target.dataset.fila;
+        const columna = event.target.dataset.columna;
+        // Aquí deberías llamar a la función para abrir la casilla en tu lógica del buscaminas
+        // Por ejemplo: abrir_casilla(fila, columna);
+        // Luego, actualiza la visualización del tablero
+        event.target.textContent = tablero[fila][columna];
+        // Aquí puedes agregar lógica adicional, como verificar si el jugador ha ganado o perdido
+    }
+
+    // Llama a la función para generar el tablero al cargar la página
+    generarTablero();
+</script>
+
+</html>
