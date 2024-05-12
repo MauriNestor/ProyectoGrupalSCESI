@@ -32,7 +32,12 @@ El mini-proyecto a desarrollar por este equipo es el de **Buscaminas en Python c
         - Commits muy ambiguos al inicio del proyecto
 - **Mita de Guilano:** 
 - **Aron de Mita:**
-
+  1. **Buenas practicas**
+        - commits pequeños, con pequeñas mejoras
+        - titulos de commits menores a 50 caracteres
+    2. **Malas practicas**
+        - El título no proporciona información específica sobre los cambios
+        - No ofrece suficiente contexto sobre los cambios realizados.
 ### Git hooks o git alias que utilizaron como equipo
 - No se uso ningun hook
 - Alias:
