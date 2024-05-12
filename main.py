@@ -12,14 +12,8 @@ def index():
 
 @app.route('/abrir_casilla', methods=['POST'])
 def abrir_casilla():
-    # Obtener la fila y columna de la casilla que el usuario abrió
     fila = request.json['fila']
     columna = request.json['columna']
-    # Llamar a la función para abrir la casilla en tu lógica de buscaminas
-    # Por ejemplo: abrir_casilla(fila, columna)
-    # Actualizar el estado del juego en el servidor según sea necesario
-    # Devolver el nuevo estado del juego al cliente
-    # Por ejemplo: return jsonify(nuevo_estado_del_juego)
 
 @app.route('/reiniciar_juego', methods=['POST'])
 def reiniciar_juego():
