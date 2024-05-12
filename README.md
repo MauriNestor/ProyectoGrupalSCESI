@@ -21,10 +21,15 @@ El mini-proyecto a desarrollar por este equipo es el de **Buscaminas en Python c
         - nombre de ramas poco consistente
         - No uso nombre de accion que se realizara en la rama, por ejemplo: bug, feature, etc 
         - nulo uso de pull request
-- **Guliano de Muricio:**
+- **Giulianno de Mauricio:**
     1. **Buenas practicas**
-    
+        - Utilizo buenos titulos en los commits
+        - Utilizo verbos imperativos
+        - titulos de commits menores a 50 caracteres
+        - Commits de cambios atomicos
     2. **Malas practicas**
+        - Al inicio del proyecto no usaba verbos imperativos
+        - Commits muy ambiguos al inicio del proyecto
 - **Mita de Guilano:** 
 - **Aron de Mita:**
 
