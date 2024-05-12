@@ -1,33 +1,32 @@
-# Nombre del Equipo 
- "GRUPO BOMB SQUAD"
+#Equipo **GRUPO BOMB SQUAD**
 
 ## GitFlow utilizado en el proyecto
 
-El gitFlow que se utilizará en este proyecto es : Ship/Show/Ask
+El gitFlow que se utilizará en este proyecto es : **Ship/Show/Ask**.
 
 ## Bitacora del proyecto
 
 ### Descripcion
-El mini-proyecto a desarrollar por este equipo es el de`"Buscaminas en Python con Flask"`,  es una implementación del clásico juego de buscaminas utilizando el lenguaje de programación Python y el framework web Flask. El juego consiste en descubrir todas las casillas del tablero sin hacer clic en ninguna mina. Cada casilla puede contener una mina o un número que indica la cantidad de minas adyacentes.
+El mini-proyecto a desarrollar por este equipo es el de **Buscaminas en Python con Flask**,  es una implementación del clásico juego de buscaminas utilizando el lenguaje de programación Python y el framework web Flask. El juego consiste en descubrir todas las casillas del tablero sin hacer clic en ninguna mina. Cada casilla puede contener una mina o un número que indica la cantidad de minas adyacentes.
 
 ### Conflictos
-- Mauricio de Aron: 
-    1. Buenas practicas
+- **Mauricio de Aron:** 
+    1. **Buenas practicas**
         - commits pequeños, con pequeñas mejoras
         - No utlizo puntos finales ni suspensivos para el titulo de commits
         - titulos de commits menores a 50 caracteres
-    2. Malas practicas
+    2. **Malas practicas**
         - titulo de commit no usa un verbo imperativo
         - ningun prefijo usado para hacer commit mas semanticos
         - nombre de ramas poco consistente
         - No uso nombre de accion que se realizara en la rama, por ejemplo: bug, feature, etc 
         - nulo uso de pull request
-- Guliano de Muricio:
-    1. Buenas practicas
+- **Guliano de Muricio:**
+    1. **Buenas practicas**
     
-    2. Malas practicas
-- Mita de Guilano: 
-- Aron de Mita:
+    2. **Malas practicas**
+- **Mita de Guilano:** 
+- **Aron de Mita:**
 
 ### Git hooks o git alias que utilizaron como equipo
 - No se uso ningun hook
@@ -61,16 +60,14 @@ Revisión regular del código por parte de otros miembros del equipo para identi
 #### Documentación Clara y Concisa: 
 Uso de comentarios en el código y documentación adicional para facilitar la comprensión y mantenimiento del proyecto.
 
-###  Malas Prácticas en eGeneral:
-#### nombramiento de ramas incorrecto
-Creacion de ramas inesearias, ademas de tener nombres incorrectos para el flujo de trabajo que intentamos adoptar.
-#### Falta de Comunicación: 
-Muy poca participacion entre nosotros, no hubo un buen ambiente de trabajo debido a distintos motivos
-#### Ignorar las pruebas locales: 
-Codigo poco limpio, ademas de ser muy poco organizado en el sentido de carpetas, flujo y diseño del proyecto en general
+###  Malas Prácticas en General:
+**nombramiento de ramas incorrecto** Creacion de ramas innecearias, con nombres inapropiados.
+**Falta de Comunicación:** Baja participación entre los mienbros.
+**Ignorar las pruebas locales:** Código desorganizado y mal estructurado.
+
 #### nombres de commits extraños
 En muchos casos se uso nombres que no son estadares para nombramiento de commits
 
-### Conclusión:
+### Conclusión
 
 El proyecto "Buscaminas en Python con Flask" fue un ejemplo de cómo intentar aplicar buenas prácticas de desarrollo de software y colaboración en equipo para crear una aplicación web funcional y de calidad. La adopción de un flujo de trabajo estructurado fue un poco limitada debido a poco compromiso en general del equipo.
