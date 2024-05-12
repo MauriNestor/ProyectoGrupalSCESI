@@ -1,16 +1,26 @@
-# Importa la clase Tablero desde el mismo archivo
-from tablero import Tablero
+from flask import Flask, render_template, request, jsonify
 
-def main():
-    # Crea un objeto Tablero con 5 filas, 5 columnas y 5 minas
-    mi_tablero = Tablero(5, 5, valor='*')
-    
-    # Coloca las minas en el tablero
-    mi_tablero.colocar_minas(5)
-    
-    # Muestra el tablero
-    print("Tablero con minas:")
-    mi_tablero.mostrar_tablero()
+app = Flask(__name__)
 
-if __name__ == "__main__":
-    main()
+# Tu lógica de buscaminas aquí
+# Por ejemplo, puedes definir funciones como abrir_casilla(), reiniciar_juego(), etc.
+
+# Rutas para manejar las interacciones del cliente con el servidor
+@app.route('/')
+def index():
+    return render_template('juego.html')
+
+@app.route('/abrir_casilla', methods=['POST'])
+def abrir_casilla():
+    fila = request.json['fila']
+    columna = request.json['columna']
+
+@app.route('/reiniciar_juego', methods=['POST'])
+def reiniciar_juego():
+    # Llamar a la función para reiniciar el juego en tu lógica de buscaminas
+    # Por ejemplo: reiniciar_juego()
+    # Devolver el nuevo estado del juego al cliente
+    # Por ejemplo: return jsonify(nuevo_estado_del_juego)
+
+if __name__ == '__main__':
+    app.run(debug=True)
