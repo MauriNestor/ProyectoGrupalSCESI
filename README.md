@@ -1,4 +1,4 @@
-#Equipo **GRUPO BOMB SQUAD**
+## Equipo **GRUPO BOMB SQUAD**
 
 ## GitFlow utilizado en el proyecto
 
