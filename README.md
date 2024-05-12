@@ -10,6 +10,31 @@ El gitFlow que se utilizará en este proyecto es : Ship/Show/Ask
 ### Descripcion
 El mini-proyecto a desarrollar por este equipo es el de`"Buscaminas en Python con Flask"`,  es una implementación del clásico juego de buscaminas utilizando el lenguaje de programación Python y el framework web Flask. El juego consiste en descubrir todas las casillas del tablero sin hacer clic en ninguna mina. Cada casilla puede contener una mina o un número que indica la cantidad de minas adyacentes.
 
+### Conflictos
+- Mauricio de Aron: 
+    1. Buenas practicas
+        - commits pequeños, con pequeñas mejoras
+        - No utlizo puntos finales ni suspensivos para el titulo de commits
+        - titulos de commits menores a 50 caracteres
+    2. Malas practicas
+        - titulo de commit no usa un verbo imperativo
+        - ningun prefijo usado para hacer commit mas semanticos
+        - nombre de ramas poco consistente
+        - No uso nombre de accion que se realizara en la rama, por ejemplo: bug, feature, etc 
+        - nulo uso de pull request
+- Guliano de Muricio:
+    1. Buenas practicas
+    
+    2. Malas practicas
+- Mita de Guilano: 
+- Aron de Mita:
+
+### Git hooks o git alias que utilizaron como equipo
+- No se uso ningun hook
+- Alias:
+    - lg: Alias para git log --oneline --graph --decorate.
+    - co: Alias para git checkout.
+
 ### Equipo de trabajo
 - Mauricio Apaza
 - Guiliano Morales
@@ -27,7 +52,7 @@ El mini-proyecto a desarrollar por este equipo es el de`"Buscaminas en Python co
 - Desarrollar una versión funcional del juego de buscaminas que pueda ser jugada en un navegador web.
 - Utilizar tecnologías modernas como Python, Flask, HTML y CSS para la implementación del juego.
 
-### Buenas Prácticas Aplicadas:
+### Buenas Prácticas Aplicadas en General:
 #### Control de Versiones con Git:
 Utilización de ramas para el desarrollo de nuevas funcionalidades y la resolución de problemas.
 Flujo de Trabajo Ship, Show, Ask: Publicación periódica de avances del proyecto, demostraciones y solicitudes de retroalimentación.
@@ -36,7 +61,7 @@ Revisión regular del código por parte de otros miembros del equipo para identi
 #### Documentación Clara y Concisa: 
 Uso de comentarios en el código y documentación adicional para facilitar la comprensión y mantenimiento del proyecto.
 
-###  Malas Prácticas:
+###  Malas Prácticas en eGeneral:
 #### nombramiento de ramas incorrecto
 Creacion de ramas inesearias, ademas de tener nombres incorrectos para el flujo de trabajo que intentamos adoptar.
 #### Falta de Comunicación: 
