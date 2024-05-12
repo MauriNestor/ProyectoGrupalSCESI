@@ -40,12 +40,13 @@ El mini-proyecto a desarrollar por este equipo es el de **Buscaminas en Python c
     - co: Alias para git checkout.
 
 ### Equipo de trabajo
-- Mauricio Apaza
-- Guiliano Morales
-- Grover Mitma
-- Geiron Padilla
 
-### Obejtivos Principales
+- Apaza Mauricio
+- Mita Miguel
+- Morales Guilianno 
+- Padilla Aron
+
+### Objetivos Principales
 - Hacer uso de git para versionamiento y desarrollo paralelo
 - Adoptar flujo de trabajo que mas conozcamos o nos llame la atencion
 - Aplicar buenas prácticas de desarrollo de software, incluyendo el uso de control de versiones con Git y el flujo de trabajo Ship, Show, Ask.
