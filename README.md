@@ -1,4 +1,4 @@
-#Equipo **GRUPO BOMB SQUAD**
+# Equipo **GRUPO BOMB SQUAD**
 
 ## GitFlow utilizado en el proyecto
 
@@ -34,11 +34,11 @@ El mini-proyecto a desarrollar por este equipo es el de **Buscaminas en Python c
     - lg: Alias para git log --oneline --graph --decorate.
     - co: Alias para git checkout.
 
-### Equipo de trabajo
-- Mauricio Apaza
-- Guiliano Morales
-- Grover Mitma
-- Geiron Padilla
+## Equipo de trabajo
+- [@MauricioNestor](https://github.com/MauriNestor)
+- [@Aron6625](https://github.com/Aron6625)
+- [@GiuliannoMorales](https://github.com/GiuliannoMorales)
+- [@mita08mm](https://github.com/mita08mm)
 
 ### Obejtivos Principales
 - Hacer uso de git para versionamiento y desarrollo paralelo
